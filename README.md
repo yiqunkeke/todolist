@@ -41,16 +41,4 @@ server 目录
 2. npm run dev:client   // 启动客户端
 3. npm run dev:server   // 启动服务端
 
-#### 使用说明
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 参与贡献
-
-1. Fork 本项目
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
 
