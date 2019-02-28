@@ -1,0 +1,8 @@
+// import './instance'
+// import './lifecycle'
+// import './data-binding'
+// import './directive'
+// import './component/slot'
+// import './component/ref'
+// import './component/provide'
+import './render'

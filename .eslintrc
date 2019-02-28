@@ -1,0 +1,12 @@
+{
+ "extends": "standard",
+  "plugins": [
+    "html"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    // "semi": 0, // 希望 eslint 不检查分号这一项
+    "no-irregular-whitespace":"off", //这禁止掉 空格报错检查
+    "no-new": "off"// 禁止使用new关键字项，关闭
+  }
+}

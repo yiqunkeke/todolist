@@ -1,0 +1,10 @@
+// 为大家演示如何使用 vue 的render 方法以及支持一些 jsx的代码
+{
+  "presets": [
+      "env" // 这个包需要安装 npm i babel-preset-env
+  ],
+  "plugins": [
+    "transform-vue-jsx",//安装： npm i babel-plugin-transform-vue-jsx ,它是专门帮我们转化 vue里面的jsx代码的。因为vue对jsx的支持与react 有一定的区别
+    "syntax-dynamic-import"
+  ]
+}
