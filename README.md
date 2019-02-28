@@ -1,17 +1,30 @@
 # webpack
 
 #### 项目介绍
-自己学习 webpack + vue 打造 todo 应用
+使用 webpack + vue + vue-router + vuex + vue-ssr 实现 todo 应用
 
 #### 软件架构
-软件架构说明
-
-
+build目录
+  webpack.config.base.js  // 基础webpack配置
+  webpack.config.client.js  // 客户端
+  webpack.config.server.js  // 服务端
+client目录 
+  index.js // 客户端入口文件
+  server-entry.js // 服务端入口文件
+  create-app.js // 服务端渲染每次都需要重新创建新的app
+server 目录
+  routers
+    server-render.js // 将vue实例渲染为html
+    dev-ssr.js // 处理开发时---服务端渲染情况
+    ssr.js  // 处理正式环境
+  server.js // 服务端文件
+  server.template.ejs // 模板
+  
 #### 安装教程
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. npm install 
+2. npm run dev:client   // 启动客户端
+3. npm run dev:server   // 启动服务端
 
 #### 使用说明
 
@@ -26,12 +39,3 @@
 3. 提交代码
 4. 新建 Pull Request
 
-
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
